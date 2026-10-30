@@ -61,7 +61,7 @@ QUERIES = [
     [1, "Error", VALUE],
     [373, "Operation Phase", VALUE],
     [5, "Normal Room Temperature", TEMP],
-    [8, "Reduced Room Temperature", TEMP],
+    [8, "Reduced Room Temperature", TEMP]
 ]
 
 def getTemperture(lowByte, highByte):
