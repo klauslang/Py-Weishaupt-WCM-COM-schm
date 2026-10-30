@@ -19,7 +19,6 @@ QUERYTELEGRAM = (
     '[10,0,1,14,0,0,0,0],'
     '[10,0,1,3101,0,0,0,0],'
     '[10,0,1,325,0,0,0,0],'
-    '[10,0,1,3197,0,0,0,0],'
     '[6,0,1,17,0,0,0,0],'
     '[6,0,1,274,0,0],'
     '[6,0,1,2586,0,0,0,0],'
@@ -31,8 +30,7 @@ QUERYTELEGRAM = (
     '[10,0,1,83,0,0,0,0],'
     '[10,0,1,1,0,0,0,0],'
     '[10,0,1,373,0,0,0,0],'
-    '[6,0,1,5,0,0,0,0],'
-    '[6,0,1,8,0,0,0,0]'
+    '[6,0,1,5,0,0,0,0]'
     ']}'
 )
 VALUE = 1
@@ -60,8 +58,7 @@ QUERIES = [
     [83, "Warm Water", VALUE],
     [1, "Error", VALUE],
     [373, "Operation Phase", VALUE],
-    [5, "Normal Room Temperature", TEMP],
-    [8, "Reduced Room Temperature", TEMP]
+    [5, "Normal Room Temperature", TEMP]
 ]
 
 def getTemperture(lowByte, highByte):
