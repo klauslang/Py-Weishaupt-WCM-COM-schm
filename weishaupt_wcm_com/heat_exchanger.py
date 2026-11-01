@@ -23,8 +23,6 @@ QUERYTELEGRAM = (
     '[6,0,1,274,0,0],'
     '[6,0,1,2586,0,0,0,0],'
     '[10,0,1,81,0,0,0,0],'
-    '[10,0,1,1497,0,0,0,0],'
-    '[10,0,1,1498,0,0,0,0],'
     '[10,0,1,466,0,0,0,0],'
     '[10,0,1,82,0,0,0,0],'
     '[10,0,1,83,0,0,0,0],'
@@ -51,8 +49,6 @@ QUERIES = [
     [274, "Operation Mode", VALUE],
     [2586, "Mixed External Temperature", TEMP],
     [81, "Flame", VALUE],
-    [1497, "Gas Valve 1", VALUE],
-    [1498, "Gas Valve 2", VALUE],
     [466, "Pump", VALUE],
     [82, "Heating", VALUE],
     [83, "Warm Water", VALUE],
